@@ -1,4 +1,4 @@
-# vu3官网模板
+# vue3官网模板
 
 ## Project setup
 ```
