@@ -1,4 +1,5 @@
 const path = require("path");
+const pxtovm = require("postcss-px-to-viewport");
 function resolve(dir) {
   return path.join(__dirname, dir);
 }
@@ -17,12 +18,12 @@ module.exports = {
       warnings: false,
       errors: true,
     },
-    proxy: {
-      "/api": {
-        target: "", // 测试服务器
-        changeOrigin: true,
-      },
-    },
+    // proxy: {
+    // //   "/api": {
+    // //     target: "", // 测试服务器
+    // //     changeOrigin: true,
+    // //   },
+    // },
     disableHostCheck: false,
   },
   configureWebpack: {
@@ -31,6 +32,11 @@ module.exports = {
         "@": resolve("src"),
         "@assets": path.resolve(__dirname, "src", "assets"),
       },
+    },
+  },
+  css: {
+    postcss: {
+      plugins: [new pxtovm({})],
     },
   },
 };

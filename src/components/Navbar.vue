@@ -57,7 +57,7 @@ a:hover {
 }
 .nav-wrap {
   box-sizing: border-box;
-  padding: 0px 15vw 0px 15vw;
+  padding: 0px 288px 0px 288px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
