@@ -50,14 +50,13 @@ export default {
 <style lang="scss">
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 a:hover {
   color: #6bf4ff;
 }
 .nav-wrap {
   box-sizing: border-box;
-  padding: 0px 288px 0px 288px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -66,7 +65,6 @@ a:hover {
     display: flex;
     flex-direction: row;
     font-size: 18px;
-    color: #ffffff;
     font-weight: 400;
     line-height: 25px;
     .item {

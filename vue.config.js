@@ -34,9 +34,4 @@ module.exports = {
       },
     },
   },
-  css: {
-    postcss: {
-      plugins: [new pxtovm({})],
-    },
-  },
 };

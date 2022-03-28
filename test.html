@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: calc(100vw / 7.5);
+      }
+      .test {
+        width: 2rem;
+        height: 2rem;
+        background: #ff0000;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script>
+      // VConsole will be exported to `window.VConsole` by default.
+      var vConsole = new window.VConsole();
+    </script>
+    <div class="test">123</div>
+    <script>
+      let testEl = document.querySelector(".test");
+      console.log("testEl.clientWidth：", testEl.clientWidth);
+    </script>
+  </body>
+</html>
