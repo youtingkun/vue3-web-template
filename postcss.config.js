@@ -3,6 +3,7 @@ module.exports = ({ file }) => {
   const designWidth = file?.dirname?.includes("vant") ? 375 : 750;
   return {
     plugins: {
+      tailwindcss: {},
       autoprefixer: {}, // 用来给不同的浏览器自动添加相应前缀，如-webkit-，-moz-等等
       "postcss-px-to-viewport": {
         unitToConvert: "px", // 要转化的单位

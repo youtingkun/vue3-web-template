@@ -14,17 +14,13 @@ module.exports = {
     host: needHost,
     port: port,
     open: false,
-    overlay: {
-      warnings: false,
-      errors: true,
-    },
+
     // proxy: {
     // //   "/api": {
     // //     target: "", // 测试服务器
     // //     changeOrigin: true,
     // //   },
     // },
-    disableHostCheck: false,
   },
   configureWebpack: {
     resolve: {

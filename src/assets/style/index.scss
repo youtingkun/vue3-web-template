@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .two-box {
   display: flex;
   flex-direction: row;
@@ -55,59 +59,56 @@
   animation: left-right 2s;
 }
 
-.font-one{
-    font-size: 36px;
-    font-weight: 600;
-    color: #FFFFFF;
-    line-height: 50px;
+.font-one {
+  font-size: 36px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 50px;
 }
-.font-two{
-    font-size: 14px;
-    font-weight: 600;
-    color: #FFFFFF;
-    line-height: 20px;
+.font-two {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 20px;
 }
-.font-three{
-    font-size: 14px;
-    font-weight: 400;
-    color: #FFFFFF;
-    line-height: 20px;
+.font-three {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 20px;
 }
-.font-four{
-    font-size: 41px;
-    font-weight: 600;
-    color: #FFFFFF;
-    line-height: 57px;
+.font-four {
+  font-size: 41px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 57px;
 }
-.font-five{
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 60px;
-    color: #FFFFFF;
+.font-five {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #ffffff;
 }
-.font-six{
-    font-size: 24px;
-    font-weight: 600;
-    color: #4A4A4A;
-    line-height: 33px;
+.font-six {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4a4a4a;
+  line-height: 33px;
 }
-.font-seven{
-    font-size: 16px;
-    font-weight: 600;
-    color: #4A4A4A;
+.font-seven {
+  font-size: 16px;
+  font-weight: 600;
+  color: #4a4a4a;
 }
-.font-eight{
-    font-size: 14px;
-    font-weight: 600;
-    color: #4A4A4A;
-    line-height: 18px;
+.font-eight {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a4a4a;
+  line-height: 18px;
 }
-.font-nine{
-    font-size: 24px;
-    font-weight: 600;
-    color: #29AFCA;
-    line-height: 33px;
+.font-nine {
+  font-size: 24px;
+  font-weight: 600;
+  color: #29afca;
+  line-height: 33px;
 }
-
-
-

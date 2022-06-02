@@ -41,20 +41,4 @@ export default {
   },
 };
 </script>
-<style lang="scss">
-.layout {
-  display: flex;
-  min-height: 100%;
-  flex-direction: column;
-  position: relative;
-  .nav-bar {
-    z-index: 10;
-    position: absolute;
-    width: 100%;
-    top: 10px;
-  }
-  .main {
-    flex: 1;
-  }
-}
-</style>
+<style lang="scss"></style>
